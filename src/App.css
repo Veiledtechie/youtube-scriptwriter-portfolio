@@ -1,38 +1,187 @@
-.App {
+body {
+  font-family: Montserrat;
+}
+h4 {
+  font-size: 40px;
+  font-weight: 600;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  list-style: none;
+  margin-left: 20px;
+
+  border: 1px solid #076dfd;
+  background: #076dfd;
+  border-radius: 20px;
+
+  padding: 5px 20px;
+  font-size: 15px;
+  transition: all 100ms ease-in-out;
+}
+
+nav ul li .portfolio {
+  color: #f5b21f;
+}
+
+nav ul li:hover {
+  background: white;
+}
+
+nav .header-two {
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+ul li .portfolio {
+  color: #f5b21f;
+}
+main {
+  margin-top: 100px;
+}
+main h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f5b21f;
+}
+main .home-body {
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+section {
+  margin-top: 40px;
+}
+section .glimpse {
+  font-weight: 800;
+  font-size: 25px;
+  color: #076dfd;
+}
+section .detailed {
+  margin-top: 10px;
+  font-weight: 500;
+}
+section .glimpse-scripts {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.portfolio-two {
+  color: #f5b21f;
+  text-decoration: none;
+}
+
+.portfolio-two:hover {
+  color: #076dfd;
+}
+.script-title a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+}
+.script-title a:hover {
+  color: #076dfd;
+}
+.script-title-one a {
+  color: #f5b21f;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 600;
+}
+.script-title-one a:hover {
+  color: #076dfd;
+}
+.scripts-info {
+  font-family: Roboto;
+  font-size: 17px;
+}
+
+main .reviews {
+  color: #f5b21f;
+  font-weight: 600;
+}
+main .five-star {
+  color: #076dfd;
+}
+main .review-body {
+  font-family: Roboto;
+}
+
+main .client-name {
+  color: black;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.contact-box {
+  background: #076dfd;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+.contact-box a {
+  margin: 0;
+}
+.btn-branding {
+  background: #f5b21f;
+  border-radius: 4px;
+
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.btn-branding:hover {
+  background: white;
+}
+
+.footer {
+  background: black;
+}
+.copyright {
+  color: #f5b21f;
   text-align: center;
+  font-size: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.link {
+  color: #076dfd;
+  margin: 10px 30px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.about-heading {
+  text-align: center;
+  font-weight: bold;
+  color: #076dfd;
+  font-size: 40px;
+}
+.about-body {
+  font-family: Roboto;
+  font-size: 17px;
+  line-height: 1.7;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about-offers {
+  color: #076dfd;
+}
+strong {
+  color: #f5b21f;
+}
+.rap-image {
+  width: 100%;
+  height: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (max-width: 900px) {
+  .header {
+    padding: 5px 0px 5px 0px;
+    line-height: 1.5;
   }
 }
